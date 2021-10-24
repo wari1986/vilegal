@@ -25,3 +25,4 @@ These libraries do not yet fully support the upgrade to Gatsby 3.x:
 * gatsby-theme-codebushi
 # vilegal
 # vilegal
+# vilegal
