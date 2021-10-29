@@ -9,38 +9,20 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 // import Hero from '../components/Hero';
 import HeroImage from '../svg/HeroImage';
+import GbiBridged from '../components/BackgroundImageHero'
 import SvgCharts from '../svg/SvgCharts';
 // import SocialNetworkIcons from '../components/SocialMedia';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-// import { graphql, useStaticQuery } from "gatsby"
-// import { getImage } from "gatsby-plugin-image"
-// import {  } from "gbimage-bridge";
 
 library.add(faFacebookF);
 library.add(faWhatsapp);
 
 const Index = () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Asesoramiento Legal Personalizado
-          </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Nuestro compromiso <br /> Satisfacción, Tranquilidad y Confianza
-          </p>
-          <p className="text-xl lg:text-2xl mt-6 font-light"></p>
-          <p className="mt-8 md:mt-12">
-            <Button size="lg">Contáctanos</Button>
-          </p>
-          {/* <p className="mt-4 text-gray-600">Nuestro personal estará feliz de atenderlo</p> */}
-        </div>
-        <div className="lg:w-1/2">{/* <HeroImage /> */}</div>
-      </div>
-    </section>
+    <GbiBridged />
+
     <section id="services" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Nuestros Servicios</h2>
