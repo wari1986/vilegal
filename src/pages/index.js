@@ -8,18 +8,14 @@ import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 // import Hero from '../components/Hero';
-import HeroImage from '../svg/HeroImage';
+// import HeroImage from '../svg/HeroImage';
 import GbiBridged from '../components/BackgroundImageHero';
 import { StaticImage } from 'gatsby-plugin-image';
-import SvgCharts from '../svg/SvgCharts';
+// import SvgCharts from '../svg/SvgCharts';
 // import SocialNetworkIcons from '../components/SocialMedia';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import ContactForm
-
-library.add(faFacebookF);
-library.add(faWhatsapp);
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebookF, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Index = () => (
   <Layout>
