@@ -9,14 +9,13 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
     "gatsby": "^4.0.1",
     "gatsby-background-image": "^1.5.3",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-emotion": "^6.0.0",
     "gatsby-plugin-image": "^2.0.0",
+    "gatsby-plugin-manifest": "^4.1.0",
     "gatsby-plugin-sharp": "^4.0.0",
     "gatsby-source-filesystem": "^4.0.0",
     "gatsby-theme-codebushi": "^1.0.0",
@@ -27,7 +26,9 @@
     "npm": "^8.1.1",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.0.0"
   },
   "devDependencies": {
     "eslint": "^7.21.0",
