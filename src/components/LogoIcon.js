@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const LogoIcon = () => (
   <StaticImage
     viewBox="0 0 48 48"
-    src="../images/logovilegal.jpeg"
+    src="../images/logovilegalcroped.webp"
     // width={100}
     // height={100}
     alt="logo"
