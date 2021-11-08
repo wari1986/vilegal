@@ -26,7 +26,7 @@ const Index = () => (
             <div className="flex-1 px-2">
               <Card className="mb-8">
                 <p className="font-semibold text-xl">Derecho Civil</p>
-                <ul>
+                <ul className="mt-4 text-left">
                   <li>{'\u2022'} Contratos adecuados de todo tipo</li>
                   <li>{'\u2022'} Cobranzas judiciales</li>
                   <li>{'\u2022'} Asesoramiento en juicios de toda naturaleza</li>
@@ -48,7 +48,7 @@ const Index = () => (
             <div className="flex-1 px-3">
               <Card className="mb-8">
                 <p className="font-semibold text-xl">Derecho Comercial</p>
-                <ul>
+                <ul className="mt-4 text-left">
                   <li>{'\u2022'} Constituciones de sociedad</li>
                   <li>
                     {'\u2022'} Constitución de empresas extranjeras hasta su legal funcionamiento,
@@ -70,7 +70,7 @@ const Index = () => (
             <div className="flex-1 px-3">
               <Card className="mb-8">
                 <p className="font-semibold text-xl">Derecho Laboral</p>
-                <ul>
+                <ul className="mt-4 text-left">
                   <li>
                     {'\u2022'} Contratos adecuados a las labores que desarrollará cada empleado,
                     sean a plazo fijo, indefinido, colectivos, eventuales.
@@ -98,11 +98,11 @@ const Index = () => (
             <div className="flex-1 px-3">
               <Card className="mb-8">
                 <p className="font-semibold text-xl">Derecho Tributario y Penal</p>
-                <p className="mt-4">
+                <p className="mt-4 text-left">
                   Trabajamos con profresionales externos de reconocido prestigio en estas áreas, de
                   esta manera proporcionando a nuestros clientes un respaldo legal integral.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-left">
                   Nuestros clientes pueden tener la certeza de recibir siempre una atención
                   especializada y oportuna.
                 </p>
