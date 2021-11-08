@@ -1,9 +1,5 @@
 import React from 'react';
 
-
-
-
-
 const StatsBox = ({ primaryText, secondaryText }) => (
   <>
 
@@ -13,10 +9,3 @@ const StatsBox = ({ primaryText, secondaryText }) => (
 );
 
 export default StatsBox;
-// <FontAwesomeIcon icon={['fab', 'facebook']} />;
-
-// const SocialMedia = () => {
-
-// };
-
-// export default SocialMedia

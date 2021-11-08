@@ -39,9 +39,14 @@ const GbiBridged = () => {
               </p>
               {/* <p className="text-xl lg:text-2xl mt-6 font-light"></p> */}
               <p className="mt-8 md:mt-12">
-                <Button className="m-16" size="lg">
-                  Contáctanos
-                </Button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=59176777577"
+                  target="_blank"
+                >
+                  <Button className="m-16" size="lg">
+                    Contáctanos
+                  </Button>
+                </a>
               </p>
               {/* <p className="mt-4 text-gray-600">Nuestro personal estará feliz de atenderlo</p> */}
             </div>
