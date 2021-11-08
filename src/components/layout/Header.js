@@ -7,9 +7,9 @@ import LogoIcon from '../../components/LogoIcon';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow z-10">
-    <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
+    <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-1 px-8">
       <div className="flex items-center text-2xl">
-        <div className="w-32 mr-3">
+        <div className="w-20 mx-0">
           <LogoIcon />
         </div>
       </div>
