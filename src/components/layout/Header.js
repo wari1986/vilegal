@@ -1,7 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'gatsby';
-// import { Navbar, Nav } from 'react-bootstrap'
 import LogoIcon from '../../components/LogoIcon';
 // import Button from '../Button';
 
@@ -20,9 +19,9 @@ const Header = () => (
         <AnchorLink className="px-4" href="#about">
           Nosotros
         </AnchorLink>
-        {/* <Link className="px-4" href="/blog"> */}
+        <Link className="px-4" href="/blog">
           Blog
-        {/* </Link> */}
+        </Link>
         <AnchorLink className="px-4" href="#contact">
           Contacto
         </AnchorLink>
