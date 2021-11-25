@@ -14,6 +14,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 import SocialMediaIcons from '../components/SocialMedia';
 // import Footer from '../components/layout/Footer';
 // import SvgCharts from '../svg/SvgCharts';
+// import AccordionComponent from '../components/Accordion';
+import CustomizedAccordions from '../components/AccordionVillarroel';
+
 
 const Index = () => (
   <Layout>
@@ -112,7 +115,6 @@ const Index = () => (
         </div>
       </section>
     </div>
-
     <SplitSection
       id="about"
       primarySlot={
@@ -180,15 +182,84 @@ const Index = () => (
         />
       }
     />
+    <section>
+      <div className="container mx-auto">
+        <LabelText className="mb-8 text-gray-600 text-center">Encuentranos en linea</LabelText>
+      </div>
+      <SocialMediaIcons />
+    </section>
     <div className="container mx-auto">
-      <LabelText className="mb-8 text-gray-600 text-center">Encuentranos en linea</LabelText>
+      <LabelText className="mt-12 text-gray-600 text-center">Nuestro Plantel Profesional</LabelText>
     </div>
-    <SocialMediaIcons />
-    <section className="py-20 lg:py-40">
+    <SplitSection
+      // id="about"
+      primarySlot={
+        <div className="flex flex-col mx-12 justify-between">
+          <StaticImage
+            src="../images/manuelVillarroel.jpeg"
+            width={500}
+            height={600}
+            alt="drvillaroelpic"
+            placeholder="profilepic"
+          />
+          <LabelText className="mt-6 mb-6 text-gray-700 text-center lg:text-left">
+            Dr. Victor Manuel Villarroel Vargas
+          </LabelText>
+        </div>
+      }
+      secondarySlot={<CustomizedAccordions />}
+    />
+    <SplitSection
+      reverseOrder
+      primarySlot={
+        <div className="lg:pl-32 xl:pl-48">
+          <h3 className="text-3xl font-semibold leading-tight">Como Trabajamos?</h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Hacemos un análisis previo y profundo del caso, expresándole al cliente las
+            posibilidades de éxito antes del inicio de acciones o, en su caso, ingresar a una
+            negociación o conciliación con su contraparte a fin de evitar mayor perjuicio a sus
+            intereses.
+          </p>
+        </div>
+      }
+      secondarySlot={
+        <StaticImage
+          src="../images/como_trabajamos.jpg"
+          width={450}
+          height={250}
+          alt="como_trabajamos"
+          placeholder="tracedSVG"
+        />
+      }
+    />
+    <SplitSection
+      primarySlot={
+        <div className="lg:pr-32 xl:pr-48">
+          <h3 className="text-3xl font-semibold leading-tight">Nuestros Resultados</h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Con nuestro asesoramiento, las empresas comerciales, ong’s internacionales, fundaciones
+            nacionales e internacionales, reducen sustancialmente sus conflictos y riesgos en todos
+            los campos en los que se desarrolla. Atendemos gratuitamente a personas de escasos
+            recursos, porque nos interesa proteger a todo aquel que acuda y confíe en nosotros.
+          </p>
+        </div>
+      }
+      secondarySlot={
+        <StaticImage
+          src="../images/nuestros_resultados.jpg"
+          width={600}
+          height={450}
+          alt="nuestrosresultados"
+          placeholder="tracedSVG"
+        />
+      }
+    />
+    {/* <section className="py-20 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">
           Nuestro Plantel Profesional
         </LabelText>
+
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map((customer) => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -218,7 +289,7 @@ const Index = () => (
           <Button size="xl">Contacto</Button>
         </a>
       </p>
-    </section>
+    </section> */}
     <div style={{ marginBottom: '4em' }}></div>
   </Layout>
 );
