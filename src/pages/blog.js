@@ -1,13 +1,16 @@
-import * as React from 'react';
+/* import * as React from 'react';
+
 
 export default function Component() {
   return 'Hello world';
-}
-// import React from 'react';
-// import Layout from '../components/layout/Layout'
+} */
 
-// const Blog = () => (
-//   <Layout>
+import React from 'react';
+import Layout from '../components/layout/Layout'
 
-//   </Layout>
-// )
+const Blog = () => (
+<Layout>
+'Hello'
+</Layout>
+)
+export default Blog;
