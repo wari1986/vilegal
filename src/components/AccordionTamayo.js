@@ -40,7 +40,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderBottom: '1px solid rgba(0, 0, 0, .125)'
 }));
 
-export default function CustomizedAccordions() {
+export default function CustomizedAccordionsTamayo() {
   const [expanded, setExpanded] = React.useState('panel1');
 
   const handleChange = (panel) => (event, newExpanded) => {
@@ -56,16 +56,20 @@ export default function CustomizedAccordions() {
         <AccordionDetails>
           <Typography>
             <ul>
-              <li>Ejercicio intensivo de la profesión de más de 24 años.</li>
               <li>
-                Asesoramiento legal a empresas locales e internacionales; entre ellas, organismos
-                internacionales, fundaciones, ong´s nacionales e internacionales, universidades
-                privadas, entidades públicas, entidades bancarias, empresas comerciales de diverso
-                giro.
+                Analista Jurídico Senior y Jefatura de Oficina sede La Paz en el Registro de
+                Comercio de Bolivia – Fundempresa, donde adquirió sólidos conocimientos en el área
+                empresarial, en lo relativo a la organización, administración, modificación,
+                reestructuración de sociedades y empresas comerciales.
               </li>
-              <li>Experto en materia civil </li>
-              <li>Experto en litigio en materia civil, laboral, familiar, administrativa</li>
-              <li>Autor de varios estudios y análisis jurídicos </li>
+              <li>
+                Realización de Due Diligence empresariales, realizando el diagnóstico, análisis y
+                solución de contingencias relacionadas a la vida legal corporativa societaria.
+              </li>
+              <li>
+                Docente de la Universidad Nuestra Señora de La Paz, en las asignaturas de Derecho
+                Comercial I, Derecho Internacional Público y Derecho Administrativo.
+              </li>
             </ul>
           </Typography>
         </AccordionDetails>
@@ -76,10 +80,8 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-              <li>Derecho civil</li>
-              <li>Derecho laboral</li>
-              <li>Derecho de familia </li>
-              <li>Derecho administrativo </li>
+            <li>Derecho comercial</li>
+            <li>Derecho corporativo </li>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -89,11 +91,12 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <li>Licenciado en Ciencias Jurídicas y Políticas - Universidad Mayor de San Simón.</li>
-            <li>Diplomado en Ciencias Penales.</li>
-            <li>
-              Capacitador en materia civil, procesal civil, laboral, procesal laboral, familia.
-            </li>
+              <li>Licenciada en Derecho - Universidad Católica Boliviana “San Pablo” </li>
+              <li>
+                Maestría en Derecho Internacional Público, Privado, Diplomacia y Relaciones
+                Internacionales – Universidad Católica Boliviana “San Pablo”
+              </li>
+              <li>Diplomado en Educación Superior - Universidad Nuestra Señora de La Paz.</li>
           </Typography>
         </AccordionDetails>
       </Accordion>

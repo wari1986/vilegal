@@ -40,7 +40,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderBottom: '1px solid rgba(0, 0, 0, .125)'
 }));
 
-export default function CustomizedAccordions() {
+export default function CustomizedAccordionsZapana() {
   const [expanded, setExpanded] = React.useState('panel1');
 
   const handleChange = (panel) => (event, newExpanded) => {
@@ -56,16 +56,12 @@ export default function CustomizedAccordions() {
         <AccordionDetails>
           <Typography>
             <ul>
-              <li>Ejercicio intensivo de la profesión de más de 24 años.</li>
               <li>
-                Asesoramiento legal a empresas locales e internacionales; entre ellas, organismos
-                internacionales, fundaciones, ong´s nacionales e internacionales, universidades
-                privadas, entidades públicas, entidades bancarias, empresas comerciales de diverso
-                giro.
+                Asesora de despacho en el Ministerio de Obras Públicas Servicios y Vivienda, así
+                como en el Ministerio de Comunicación.
               </li>
-              <li>Experto en materia civil </li>
-              <li>Experto en litigio en materia civil, laboral, familiar, administrativa</li>
-              <li>Autor de varios estudios y análisis jurídicos </li>
+              <li>Asistente legal en el Banco Mercantil Santa Cruz e Idepro IFD.</li>
+              <li>Abogada en el Estudio Jurídico Vi-legal Abogados.</li>
             </ul>
           </Typography>
         </AccordionDetails>
@@ -76,10 +72,10 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-              <li>Derecho civil</li>
-              <li>Derecho laboral</li>
-              <li>Derecho de familia </li>
-              <li>Derecho administrativo </li>
+            <li>Derecho civil</li>
+            <li>Derecho laboral</li>
+            <li>Derecho comercial</li>
+            <li>Derecho empresarial</li>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -89,11 +85,12 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <li>Licenciado en Ciencias Jurídicas y Políticas - Universidad Mayor de San Simón.</li>
-            <li>Diplomado en Ciencias Penales.</li>
-            <li>
-              Capacitador en materia civil, procesal civil, laboral, procesal laboral, familia.
-            </li>
+              <li>Licenciada en Derecho – Universidad Católica Boliviana "San Pablo” </li>
+              <li>Diplomado en Derecho Corporativo - Universidad del Valle.</li>
+              <li>
+                Curso de Especialización en Negociación - Universidad Nacional Autónoma de México.
+              </li>
+              <li>Curso en Finanzas por la Universidad de California.</li>
           </Typography>
         </AccordionDetails>
       </Accordion>

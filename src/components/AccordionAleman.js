@@ -40,7 +40,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderBottom: '1px solid rgba(0, 0, 0, .125)'
 }));
 
-export default function CustomizedAccordions() {
+export default function CustomizedAccordionsAleman() {
   const [expanded, setExpanded] = React.useState('panel1');
 
   const handleChange = (panel) => (event, newExpanded) => {
@@ -56,16 +56,16 @@ export default function CustomizedAccordions() {
         <AccordionDetails>
           <Typography>
             <ul>
-              <li>Ejercicio intensivo de la profesión de más de 24 años.</li>
+              <li>Conjuez de la Corte Nacional de Minería</li>
+              <li>Vocal de la Corte Superior del Distrito Judicial de La Paz</li>
+              <li>Director General del Trabajo y Desarrollo Laboral</li>
               <li>
-                Asesoramiento legal a empresas locales e internacionales; entre ellas, organismos
-                internacionales, fundaciones, ong´s nacionales e internacionales, universidades
-                privadas, entidades públicas, entidades bancarias, empresas comerciales de diverso
-                giro.
+                Asesor de la Presidencia de la República, Vicepresidencia de la República, H.
+                Congreso Nacional, instituciones públicas, empresas nacionales e internacionales de
+                diverso giro, entidades bancarias.
               </li>
-              <li>Experto en materia civil </li>
-              <li>Experto en litigio en materia civil, laboral, familiar, administrativa</li>
-              <li>Autor de varios estudios y análisis jurídicos </li>
+              <li>Experto en Derecho minero</li>
+              <li>Catedrático universitario</li>
             </ul>
           </Typography>
         </AccordionDetails>
@@ -76,10 +76,11 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
+              <li>Derecho minero</li>
+              <li>Derecho administrativo </li>
               <li>Derecho civil</li>
               <li>Derecho laboral</li>
-              <li>Derecho de familia </li>
-              <li>Derecho administrativo </li>
+              <li>Derecho familiar </li>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -89,11 +90,11 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <li>Licenciado en Ciencias Jurídicas y Políticas - Universidad Mayor de San Simón.</li>
-            <li>Diplomado en Ciencias Penales.</li>
-            <li>
-              Capacitador en materia civil, procesal civil, laboral, procesal laboral, familia.
-            </li>
+            <ul>
+              <li>
+                Licenciado en Ciencias Políticas y Sociales - Universidad Mayor Autónoma Tomás Frías
+              </li>
+            </ul>
           </Typography>
         </AccordionDetails>
       </Accordion>
