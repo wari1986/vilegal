@@ -14,6 +14,12 @@ import { StaticImage } from 'gatsby-plugin-image';
 import SocialMediaIcons from '../components/SocialMedia';
 // import Footer from '../components/layout/Footer';
 // import SvgCharts from '../svg/SvgCharts';
+// import AccordionComponent from '../components/Accordion';
+import CustomizedAccordions from '../components/AccordionVillarroel';
+import CustomizedAccordionsAleman from '../components/AccordionAleman'
+import CustomizedAccordionsTamayo from '../components/AccordionTamayo'
+import CustomizedAccordionsZapana from '../components/AccordionZapana'
+
 
 const Index = () => (
   <Layout>
@@ -112,7 +118,6 @@ const Index = () => (
         </div>
       </section>
     </div>
-
     <SplitSection
       id="about"
       primarySlot={
@@ -161,7 +166,7 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Nuestros Resultados</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
+          <p className=" mt-8 text-xl font-light leading-relaxed">
             Con nuestro asesoramiento, las empresas comerciales, ong’s internacionales, fundaciones
             nacionales e internacionales, reducen sustancialmente sus conflictos y riesgos en todos
             los campos en los que se desarrolla.
@@ -178,31 +183,83 @@ const Index = () => (
         />
       }
     />
-    <div className="container mx-auto">
-      <LabelText className="mb-8 text-gray-600 text-center">Encuéntranos en línea</LabelText>
+    <div className="container mx-auto ">
+      <LabelText className="py-8 w-full bg-blue-500 p-auto mt-16 text-3xl text-white text-center">
+        Socios
+      </LabelText>
     </div>
-    <SocialMediaIcons />
-    <section className="py-20 lg:py-40">
-      <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">
-          Nuestro Plantel Profesional
-        </LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map((customer) => (
-            <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
+    <SplitSection
+      // id="about"
+      primarySlot={
+        <div className="flex flex-col mx-2 justify-between lg:mx-16 md:mx-24">
+          <StaticImage
+            src="../images/manuelVillarroel.jpeg"
+            width={500}
+            height={600}
+            alt="drvillaroelpic"
+            placeholder="profilepic"
+          />
+          <LabelText className="mt-6 mb-6 text-gray-700 text-center lg:text-left">
+            Dr. Victor Manuel Villarroel Vargas
+          </LabelText>
         </div>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map((customer) => (
-            <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
+      }
+      secondarySlot={<CustomizedAccordions />}
+    />
+    <SplitSection
+      reverseOrder
+      primarySlot={
+        <div className="flex flex-col mx-2 justify-between lg:mx-16 md:mx-24">
+          <StaticImage
+            src="../images/ricardoIvanAlemanMenduiña.jpeg"
+            width={500}
+            height={600}
+            alt="drvillaroelpic"
+            placeholder="profilepic"
+          />
+          <LabelText className="mt-6 mb-6 text-gray-700 text-center lg:text-left">
+            Dr. Ricardo Ivan Aleman Menduiña
+          </LabelText>
         </div>
-      </div>
-    </section>
+      }
+      secondarySlot={<CustomizedAccordionsAleman />}
+    />
+    <SplitSection
+      // id="about"
+      primarySlot={
+        <div className="flex flex-col mx-2 justify-between lg:mx-16 md:mx-24">
+          <StaticImage
+            src="../images/carolinaTamayoCampero.jpeg"
+            width={500}
+            height={600}
+            alt="drvillaroelpic"
+            placeholder="profilepic"
+          />
+          <LabelText className="mt-6 mb-6 text-gray-700 text-center lg:text-left">
+            Dra. Carolina Tamayo Campero
+          </LabelText>
+        </div>
+      }
+      secondarySlot={<CustomizedAccordionsTamayo />}
+    />
+    <SplitSection
+      reverseOrder
+      primarySlot={
+        <div className="flex flex-col mx-2 justify-between lg:mx-16 md:mx-24">
+          <StaticImage
+            src="../images/ashleyKatteZapanaAlejos.jpeg"
+            width={500}
+            height={600}
+            alt="drvillaroelpic"
+            placeholder="profilepic"
+          />
+          <LabelText className="mt-6 mb-6 text-gray-700 text-center lg:text-left">
+            Dra. Ashley Katte Zapana Alejos
+          </LabelText>
+        </div>
+      }
+      secondarySlot={<CustomizedAccordionsZapana />}
+    />
     <section
       id="contact"
       className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center"
@@ -218,6 +275,14 @@ const Index = () => (
       </p>
     </section>
     <div style={{ marginBottom: '4em' }}></div>
+    <section>
+      <div className="container mx-auto">
+        <LabelText className="text-gray-600 text-center">Encuéntranos en linea</LabelText>
+      </div>
+      <div className="mb-12 mt-4">
+        <SocialMediaIcons />
+      </div>
+    </section>
   </Layout>
 );
 
