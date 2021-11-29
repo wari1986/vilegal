@@ -1,7 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'gatsby';
-import LogoIcon from '../../components/LogoIcon';
+import LogoIcon from '../LogoIcon';
 // import Button from '../Button';
 
 const Header = () => (
@@ -13,18 +13,18 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0 ">
-        <AnchorLink className="px-4" href="#services">
-          Servicios
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#about">
+        <Link className="px-4" href="/">
+          Inicio
+        </Link>
+        {/* <Link className="px-4" href="/">
           Nosotros
-        </AnchorLink>
+        </Link> */}
         <Link className="px-4" href="/blog">
           Blog
         </Link>
-        <AnchorLink className="px-4" href="#contact">
+        {/* <Link className="px-4" href="/">
           Contacto
-        </AnchorLink>
+        </Link> */}
       </div>
       {/* <div className="hidden md:block">
         <Button className="text-sm">Start Free Trial</Button>
