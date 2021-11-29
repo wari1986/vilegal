@@ -277,7 +277,7 @@ const Index = () => (
     <div style={{ marginBottom: '4em' }}></div>
     <section>
       <div className="container mx-auto">
-        <LabelText className="text-gray-600 text-center">Encuéntranos en linea</LabelText>
+        <LabelText className="text-gray-600 text-center">Encuentranos en linea</LabelText>
       </div>
       <div className="mb-12 mt-4">
         <SocialMediaIcons />
