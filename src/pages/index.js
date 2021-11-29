@@ -167,7 +167,7 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Nuestros Resultados</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
+          <p className=" mt-8 text-xl font-light leading-relaxed">
             Con nuestro asesoramiento, las empresas comerciales, ong’s internacionales, fundaciones
             nacionales e internacionales, reducen sustancialmente sus conflictos y riesgos en todos
             los campos en los que se desarrolla. Atendemos gratuitamente a personas de escasos
@@ -185,14 +185,10 @@ const Index = () => (
         />
       }
     />
-    <section>
-      <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">Encuentranos en linea</LabelText>
-      </div>
-      <SocialMediaIcons />
-    </section>
-    <div className="container mx-auto">
-      <LabelText className="mt-24 text-3xl text-gray-600 text-center">Socios</LabelText>
+    <div className="container mx-auto ">
+      <LabelText className="py-8 w-full bg-blue-500 p-auto mt-16 text-3xl text-white text-center">
+        Socios
+      </LabelText>
     </div>
     <SplitSection
       // id="about"
@@ -266,7 +262,6 @@ const Index = () => (
       }
       secondarySlot={<CustomizedAccordionsZapana />}
     />
-
     <section
       id="contact"
       className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center"
@@ -282,6 +277,14 @@ const Index = () => (
       </p>
     </section>
     <div style={{ marginBottom: '4em' }}></div>
+    <section>
+      <div className="container mx-auto">
+        <LabelText className="text-gray-600 text-center">Encuéntranos en linea</LabelText>
+      </div>
+      <div className="mb-12 mt-4">
+        <SocialMediaIcons />
+      </div>
+    </section>
   </Layout>
 );
 
