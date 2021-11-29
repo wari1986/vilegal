@@ -20,9 +20,9 @@ const Header = () => (
         <AnchorLink className="px-4" href="#about">
           Nosotros
         </AnchorLink>
-        {/* <Link className="px-4" href="/blog"> */}
+        <Link className="px-4" href="/blog">
           Blog
-        {/* </Link> */}
+        </Link>
         <AnchorLink className="px-4" href="#contact">
           Contacto
         </AnchorLink>

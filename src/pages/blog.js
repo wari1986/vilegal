@@ -13,3 +13,4 @@ const Blog = () => (
 'Hello'
 </Layout>
 )
+export default Blog;
