@@ -1,7 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'gatsby';
-// import { Navbar, Nav } from 'react-bootstrap'
 import LogoIcon from '../../components/LogoIcon';
 // import Button from '../Button';
 
