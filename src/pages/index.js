@@ -122,11 +122,11 @@ const Index = () => (
       id="about"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Quienes Somos?</h3>
+          <h3 className="text-3xl font-semibold leading-tight">¿Quiénes somos?</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            VI-LEGAL es un equipo de abogados que obtiene el mejor resultado para tí, defendiendo
-            tus intereses, acompañándote en todo momento, manteniéndote informado oportunamente
-            sobre el desarrollo del caso y absolviendo todas tus consultas.
+            VI-LEGAL es un equipo de abogados que obtiene el mejor resultado para sus clientes,
+            defendiendo sus intereses, acompañando en todo momento, e informando oportunamente sobre
+            el desarrollo del caso y absolviendo todas sus consultas.
           </p>
         </div>
       }
@@ -144,12 +144,11 @@ const Index = () => (
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">Como Trabajamos?</h3>
+          <h3 className="text-3xl font-semibold leading-tight">¿Cómo trabajamos?</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Hacemos un análisis previo y profundo del caso, expresándole al cliente las
-            posibilidades de éxito antes del inicio de acciones o, en su caso, ingresar a una
-            negociación o conciliación con su contraparte a fin de evitar mayor perjuicio a sus
-            intereses.
+            Hacemos un análisis previo y profundo del caso, expresando al cliente las posibilidades
+            de éxito antes del inicio de acciones o en su caso, ingresar a una negociación o
+            conciliación con su contraparte a fin de evitar mayor perjuicio a sus intereses.
           </p>
         </div>
       }
@@ -166,12 +165,11 @@ const Index = () => (
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Nuestros Resultados</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Nuestros resultados</h3>
           <p className=" mt-8 text-xl font-light leading-relaxed">
             Con nuestro asesoramiento, las empresas comerciales, ong’s internacionales, fundaciones
             nacionales e internacionales, reducen sustancialmente sus conflictos y riesgos en todos
-            los campos en los que se desarrolla. Atendemos gratuitamente a personas de escasos
-            recursos, porque nos interesa proteger a todo aquel que acuda y confíe en nosotros.
+            los campos en los que se desarrolla.
           </p>
         </div>
       }
@@ -271,7 +269,7 @@ const Index = () => (
         Contáctenos, nuestro equipo se encuentra listo para atenderlo.
       </p>
       <p className="mt-8">
-        <a href="mailto:info@vi-legal.com" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=59176777577" target="_blank">
           <Button size="xl">Contacto</Button>
         </a>
       </p>

@@ -15,7 +15,11 @@ const SocialMediaIcons = () => (
       >
         <FaWhatsappSquare />
       </a>
-      <a style={{ margin: '1em' }} href="https://www.facebook.com" target="_blank">
+      <a
+        style={{ margin: '1em' }}
+        href="https://www.facebook.com/Vi-Legal-Estudio-de-Abogados-103688492120756"
+        target="_blank"
+      >
         <FaFacebookSquare />
       </a>
       <a style={{ margin: '1em' }} href="https://www.linkedin.com" target="_blank">
