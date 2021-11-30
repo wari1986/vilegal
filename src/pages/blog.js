@@ -257,6 +257,90 @@ const Blog = () => {
                 </Link>
               </Card>
             </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/procesos_monitorios">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFuZHNoYWtlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Procesos monitorios
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        En todos los casos indicados anteriormente, juntamente con la demanda se
+                        deberá acompañar documento auténtico o legalizado por autoridad competente,
+                        que demuestre fehacientemente el derecho del demandante.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          29 de Mayo 2014
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 101314
+                        </Typography>
+                      </Box>
+                    </Box>
+                    <Box>
+                      <BookmarkBorderIcon />
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/procedimiento_extraordinario">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFuZHNoYWtlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Procedimiento extraordinario
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        El proceso extraordinario se sustancia en una sola audiencia en la que se
+                        concentra todo el trámite y el pronunciamiento de la sentencia sobre el
+                        fondo de la pretensión jurídica sustentada en la demanda.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          29 de Mayo 2014
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 60124
+                        </Typography>
+                      </Box>
+                    </Box>
+                    <Box>
+                      <BookmarkBorderIcon />
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
           </Grid>
           <Box my={4} className={classes.paginationContainer}>
             <Pagination count={10} />
