@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="container mx-auto py-8 px-3 mt-12 mb-4 text-gray-800">
-    <div className="flex -mx-3">
+  <footer className="container mx-auto py-8 px-3 mt-12 mb-4 text-gray-800 ">
+    <div className="flex -mx-3 sm: text-xs">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Dirección</h2>
         <a href="https://goo.gl/maps/pyZuhWkCcgt3yaYa9" target="_blank">
@@ -22,7 +22,7 @@ const Footer = () => (
         </ul>
       </div>
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Correo Electrónico</h2>
+        <h2 className="text-lg font-semibold">E-Mail</h2>
         <ul className="mt-4 leading-loose">
           <li>
             <a href="mailto:info@vi-legal.com" target="_blank">
