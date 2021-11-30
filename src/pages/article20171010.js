@@ -45,7 +45,7 @@ const Article = () => {
           se practicó la diligencia.
           <br />
           <br />
-          La citación por edicto también ha mejorado en cuanto a<strong>certeza</strong> porque el
+          La citación por edicto también ha mejorado en cuanto a <strong>certeza</strong> porque el
           Art.78 autoriza un mecanismo para que la autoridad judicial antes de ordenar esta citación
           no solo exija el juramento de desconocimiento de domicilio como antiguamente, sino que
           además debe requerir informes a las autoridades del SEGIP y SERECI como instituciones que
