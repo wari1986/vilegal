@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="container mx-auto py-8 px-3 mt-12 mb-4 text-gray-800 ">
-    <div className="flex -mx-3 sm: text-xs">
+    <div className="flex -mx-3 md:text-base sm: text-xs">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Dirección</h2>
         <a href="https://goo.gl/maps/pyZuhWkCcgt3yaYa9" target="_blank">

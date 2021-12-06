@@ -341,10 +341,92 @@ const Blog = () => {
                 </Link>
               </Card>
             </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/seguro_social">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Contribuciones al seguro social obligatorio Bolivia
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        Tanto el empleador como el trabajador, tienen a su cargo una serie de contribuciones.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          21 de Abril 2014
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 199864
+                        </Typography>
+                      </Box>
+                    </Box>
+                    <Box>
+                      <BookmarkBorderIcon />
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/procedimiento_extraordinario">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Procedimiento extraordinario
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        El proceso extraordinario se sustancia en una sola audiencia en la que se
+                        concentra todo el trámite y el pronunciamiento de la sentencia sobre el
+                        fondo de la pretensión jurídica sustentada en la demanda.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          29 de Mayo 2014
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 60124
+                        </Typography>
+                      </Box>
+                    </Box>
+                    <Box>
+                      <BookmarkBorderIcon />
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
           </Grid>
-          <Box my={4} className={classes.paginationContainer}>
+          {/* <Box my={4} className={classes.paginationContainer}>
             <Pagination count={10} />
-          </Box>
+          </Box> */}
         </Container>
       </div>
     </LayoutBlog>
