@@ -347,7 +347,7 @@ const Blog = () => {
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
-                      image="https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                      image="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
                       title="Dr.Manuel Villarroel Vargas"
                     />
                     <CardContent>
