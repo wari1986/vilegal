@@ -1,6 +1,6 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
-import GbiBridge from '../components/BackgroundImageHeroBlog';
+import GbiBridged from '../components/BackgroundImageHeroBlog';
 
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'gatsby';
@@ -62,20 +62,18 @@ const useStyles = makeStyles((theme) => ({
   author: {
     display: 'flex',
   },
-  paginationContainer: {
-    display: 'flex',
-    justifyContent: 'center',
+  // paginationContainer: {
+  //   display: 'flex',
+  //   justifyContent: 'center',
 
-  },
+  // },
 }));
 
 const Blog = () => {
   const classes = useStyles();
   return (
     <LayoutBlog>
-      <div className="h-2/6">
-        <GbiBridge />
-      </div>
+      <GbiBridged className={classes.hero}/>
       <div>
         <Container maxWidth="lg" className={classes.blogsContainer}>
           <Typography variant="h4" className={classes.blogTitle}>
@@ -120,9 +118,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -165,9 +160,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -208,9 +200,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -249,9 +238,6 @@ const Blog = () => {
                           Visitas: 53221
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -292,9 +278,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -334,8 +317,42 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/proceso_ordinario">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Procedimiento ordinario
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        Descripción y fases del proceso ordinario en Bolivia.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          29 de Mayo 2014
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 100097
+                        </Typography>
+                      </Box>
                     </Box>
                   </CardActions>
                 </Link>
@@ -415,9 +432,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -455,9 +469,6 @@ const Blog = () => {
                           Visitas: 34135
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -497,9 +508,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -536,9 +544,6 @@ const Blog = () => {
                           Visitas: 23527
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -578,9 +583,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -619,9 +621,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -659,9 +658,6 @@ const Blog = () => {
                           Visitas: 36590
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -702,8 +698,197 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/preaviso_despido">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cXVpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        ¿Existe todavía el preaviso de despido?
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        Al establecerse mediante el Decreto Supremo No.28699 que nadie podrá ser
+                        despedido sino solo por las causales señaladas por el Art.16
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          16 de Enero 2014
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 14885
+                        </Typography>
+                      </Box>
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/inamovilidad_todos_trabajadores">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1617448570768-09ae7a069496?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHdvcmtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Inamovilidad de todos los trabajadores
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        En la política laboral del Gobierno Nacional se puede identificar dos
+                        pilares fundamentales: Primero, lograr la mayor estabilidad laboral a
+                        través.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          16 de Enero 2014
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 8469
+                        </Typography>
+                      </Box>
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/segundo_aguinaldo">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1604156425963-9be03f86a428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW9uZXl8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Pago de segundo aguinaldo
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        En Bolivia por Decreto Supremo No.1802 de fecha 20 de noviembre de 2013, el
+                        Gobierno Nacional ha dispuesto el pago a los trabajadores.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          20 de Noviembre 2013
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 8860
+                        </Typography>
+                      </Box>
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/pago_indemnizacion">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1617203441790-5723a811b7fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGF5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Pago de indemnización a cuenta de liquidación final y pago definitivo
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        Sucede que un empleado suscribió dos contratos laborales a plazo fijo por
+                        los cuales a su conclusión recibió su correspondiente indemnización.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          12 de Noviembre 2013
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 10997
+                        </Typography>
+                      </Box>
+                    </Box>
+                  </CardActions>
+                </Link>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <Link className="px-4" href="/causales_despido">
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d29ya2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                      title="Dr.Manuel Villarroel Vargas"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        ¿Corresponde el aguinaldo para aquellos que perciben su salario en moneda
+                        extranjera?
+                      </Typography>
+                      <Typography variant="body2" color="textSecondary" component="p">
+                        Es muy frecuente la duda relativa a si corresponde o no pagar aguinaldo a
+                        aquellas personas que perciben su salario en moneda extranjera.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions className={classes.cardActions}>
+                    <Box className={classes.author}>
+                      <Avatar src="https://drive.google.com/uc?export=view&id=1IsOzLXhrg6PSn6Pwv3mpFLBjtQJQ8SjU" />
+                      <Box ml={2}>
+                        <Typography variant="subtitle2" component="p">
+                          Dr. Manuel Villarroel Vargas
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          12 de Noviembre 2013
+                        </Typography>
+                        <Typography variant="subtitle2" color="textSecondary" component="p">
+                          Visitas: 6514
+                        </Typography>
+                      </Box>
                     </Box>
                   </CardActions>
                 </Link>
