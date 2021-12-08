@@ -1,6 +1,6 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
-import GbiBridge from '../components/BackgroundImageHeroBlog';
+import GbiBridged from '../components/BackgroundImageHeroBlog';
 
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'gatsby';
@@ -62,20 +62,18 @@ const useStyles = makeStyles((theme) => ({
   author: {
     display: 'flex',
   },
-  paginationContainer: {
-    display: 'flex',
-    justifyContent: 'center',
+  // paginationContainer: {
+  //   display: 'flex',
+  //   justifyContent: 'center',
 
-  },
+  // },
 }));
 
 const Blog = () => {
   const classes = useStyles();
   return (
     <LayoutBlog>
-      <div className="h-2/6">
-        <GbiBridge />
-      </div>
+      <GbiBridged className={classes.hero}/>
       <div>
         <Container maxWidth="lg" className={classes.blogsContainer}>
           <Typography variant="h4" className={classes.blogTitle}>
@@ -120,9 +118,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -165,9 +160,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -208,9 +200,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -249,9 +238,6 @@ const Blog = () => {
                           Visitas: 53221
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -292,9 +278,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -334,9 +317,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -373,9 +353,6 @@ const Blog = () => {
                           Visitas: 100097
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -415,9 +392,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -455,9 +429,6 @@ const Blog = () => {
                           Visitas: 34135
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -497,9 +468,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -536,9 +504,6 @@ const Blog = () => {
                           Visitas: 23527
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -578,9 +543,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -619,9 +581,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -659,9 +618,6 @@ const Blog = () => {
                           Visitas: 36590
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -702,9 +658,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -742,9 +695,6 @@ const Blog = () => {
                           Visitas: 14885
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -785,9 +735,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -825,9 +772,6 @@ const Blog = () => {
                           Visitas: 8860
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
@@ -867,9 +811,6 @@ const Blog = () => {
                         </Typography>
                       </Box>
                     </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
-                    </Box>
                   </CardActions>
                 </Link>
               </Card>
@@ -908,9 +849,6 @@ const Blog = () => {
                           Visitas: 6514
                         </Typography>
                       </Box>
-                    </Box>
-                    <Box>
-                      <BookmarkBorderIcon />
                     </Box>
                   </CardActions>
                 </Link>
