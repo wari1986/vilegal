@@ -18,28 +18,12 @@ import CardContent from '@material-ui/core/CardContent';
 import Avatar from '@material-ui/core/Avatar';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import Pagination from '@material-ui/lab/Pagination';
+import Counter from '../components/Counter';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: '#fff',
   },
-  // hero: {
-  //   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')`,
-  //   height: '500px',
-  //   backgroundPosition: 'center',
-  //   backgroundRepeat: 'no-repeat',
-  //   backgroundSize: 'cover',
-  //   position: 'relative',
-  //   display: 'flex',
-  //   justifyContent: 'center',
-  //   alignItems: 'center',
-  //   color: '#fff',
-  //   fontSize: '4rem',
-  //   [theme.breakpoints.down('sm')]: {
-  //     height: 300,
-  //     fontSize: '3em',
-  //   },
-  // },
   blogsContainer: {
     paddingTop: theme.spacing(3),
   },
@@ -76,6 +60,7 @@ const Blog = () => {
       <div className="h-2/6">
         <GbiBridge />
       </div>
+      <Counter />
       <div>
         <Container maxWidth="lg" className={classes.blogsContainer}>
           <Typography variant="h4" className={classes.blogTitle}>
