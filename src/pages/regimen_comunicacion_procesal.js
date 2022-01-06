@@ -1,16 +1,15 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
 import { Link } from 'gatsby'
+import IncreaseCounter from '../components/IncreaseCounter';
 
 const Article = () => {
   return (
     <LayoutBlog>
-      <title>
-        RÉGIMEN DE COMUNICACIÓN PROCESAL EN EL PROCESO CIVIL BOLIVIA
-      </title>
-      <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
+      <title>RÉGIMEN DE COMUNICACIÓN PROCESAL EN EL PROCESO CIVIL BOLIVIA</title>
+      <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 flex-auto ">
         <p className="text-left mt-12 mb-12 sm: text-sm">
-          Publicado el viernes, 10 de Noviembre 2017
+          Publicado el viernes, 10 de Noviembre 2017  Visitas: <IncreaseCounter props="regimen_comunicacion_procesal" />
         </p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">
           RÉGIMEN DE COMUNICACIÓN PROCESAL

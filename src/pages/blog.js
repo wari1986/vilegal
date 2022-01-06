@@ -17,8 +17,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import Avatar from '@material-ui/core/Avatar';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
+import ViewCounter from '../components/ViewCounter'
 import Pagination from '@material-ui/lab/Pagination';
-import Counter from '../components/Counter';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -60,7 +60,6 @@ const Blog = () => {
       <div className="h-2/6">
         <GbiBridge />
       </div>
-      <Counter />
       <div>
         <Container maxWidth="lg" className={classes.blogsContainer}>
           <Typography variant="h4" className={classes.blogTitle}>
@@ -69,7 +68,7 @@ const Blog = () => {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/article20171010">
+                <Link className="px-4" href="/regimen_comunicacion_procesal">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -101,7 +100,7 @@ const Blog = () => {
                           10 de Noviembre 2017
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 18235
+                          Visitas: <ViewCounter props="regimen_comunicacion_procesal" />
                         </Typography>
                       </Box>
                     </Box>
@@ -114,7 +113,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/article20170517">
+                <Link className="px-4" href="/debilidades_codigo_civil">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -146,7 +145,7 @@ const Blog = () => {
                           17 de mayo 2017.
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 7276
+                          Visitas: <ViewCounter props="debilidades_codigo_civil" />
                         </Typography>
                       </Box>
                     </Box>

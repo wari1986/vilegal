@@ -1,6 +1,7 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
 import { Link } from 'gatsby'
+import IncreaseCounter from '../components/IncreaseCounter';
 
 const Article = () => {
   return (
@@ -8,7 +9,7 @@ const Article = () => {
       <title> DEBILIDADES EN LA APLICACIÓN DEL NUEVO CÓDIGO PROCESAL CIVIL</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
         <p className="text-left mt-12 mb-12 sm: text-sm">
-          Publicado el miercoles, 17 de mayo 2017.
+          Publicado el miercoles, 17 de mayo 2017 Visitas: <IncreaseCounter props='debilidades_codigo_civil' />
         </p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">
           DEBILIDADES EN LA APLICACIÓN DEL NUEVO CÓDIGO PROCESAL CIVIL
