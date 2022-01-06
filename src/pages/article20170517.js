@@ -277,7 +277,7 @@ const Article = () => {
           partes, testigos y peritos, si no los ha conocido personalmente, sino sabe si son gordos,
           flacos, altos, bajos, de lentes, canosos, de bigotes, etc, no puede dictar sentencia sino
           se ha impregnado con los antecedentes relatados en audiencia y las pruebas, este es el
-          <b>principio de inmediación</b> y es uno de los leños que da calor para la emisión de la
+           <b>principio de inmediación</b> y es uno de los leños que da calor para la emisión de la
           sentencia.
           <br />
           <br />
