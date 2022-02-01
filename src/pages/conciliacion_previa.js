@@ -1,13 +1,14 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
 import { Link } from 'gatsby'
+import IncreaseCounter from '../components/IncreaseCounter'
 
 const Article = () => {
   return (
     <LayoutBlog>
       <title>CONCILIACIÓN PREVIA e INTRAPROCESAL EN MATERIA CIVIL BOLIVIA</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
-        <p className="text-left mt-12 mb-12 sm: text-sm">Publicado el jueves, 29 de Mayo 2014.</p>
+        <p className="text-left mt-12 mb-12 sm: text-sm">Publicado el jueves, 29 de Mayo 2014. Visitas: <IncreaseCounter value='bdac3106-68ed-4128-9873-655a41bc96b0' /></p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">
           CONCILIACIÓN PREVIA E INTRAPROCESAL EN MATERIA CIVIL BOLIVIA
         </h3>

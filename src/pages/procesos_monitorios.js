@@ -1,13 +1,14 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
 import { Link } from 'gatsby';
+import IncreaseCounter from '../components/IncreaseCounter'
 
 const Article = () => {
   return (
     <LayoutBlog>
       <title>PROCESO MONITORIO CIVIL BOLIVIA</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
-        <p className="text-left mt-12 mb-12 sm: text-sm">Publicado el jueves, 29 de Mayo 2014.</p>
+        <p className="text-left mt-12 mb-12 sm: text-sm">Publicado el jueves, 29 de Mayo 2014. Visitas:<IncreaseCounter value='09dffc65-2071-48aa-af7c-d560b748a120' /></p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">PROCESOS MONITORIOS</h3>
         <p className="mt-2 text-md text-justify font-light leading-relaxed">
           Los procesos monitorios son:

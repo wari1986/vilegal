@@ -1,6 +1,7 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
+import IncreaseCounter from '../components/IncreaseCounter';
 
 const Article = () => {
   return (
@@ -11,7 +12,7 @@ const Article = () => {
       </title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
         <p className="text-left mt-12 mb-12 sm: text-sm">
-          Publicado el Martes, 12 de Noviembre 2013.
+          Publicado el Martes, 12 de Noviembre 2013. Visitas: <IncreaseCounter value='59a4957a-d730-4213-bd43-3e709e3e692e' />
         </p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">
           ¿CORRESPONDE EL AGUINALDO PARA AQUELLOS QUE PERCIBEN SU SALARIO EN MONEDA EXTRANJERA?

@@ -1,6 +1,7 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
+import IncreaseCounter from '../components/IncreaseCounter';
 
 const Article = () => {
   return (
@@ -8,7 +9,7 @@ const Article = () => {
       <title>CAUSALES DE DESPIDO POR ABANDONO Y RETIRO VOLUNTARIO BOLIVIA</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
         <p className="text-left mt-12 mb-12 sm: text-sm">
-          Publicado el miercoles, 17 de Enero 2014.
+          Publicado el miercoles, 17 de Enero 2014. Visitas: <IncreaseCounter value='31724d97-2349-4984-9636-57aba02c0221' />
         </p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">
           CAUSALES DE DESPIDO POR ABANDONO Y RETIRO VOLUNTARIO
