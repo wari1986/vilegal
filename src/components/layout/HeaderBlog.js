@@ -9,7 +9,9 @@ const Header = () => (
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-1 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-20 mx-0">
-          <LogoIcon />
+          <Link href="/">
+            <LogoIcon />
+          </Link>
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0 ">
