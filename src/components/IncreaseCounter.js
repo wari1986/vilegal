@@ -4,7 +4,7 @@ import countapi from 'countapi-js';
 const IncreaseCounter = (props) => {
   const [viewCount, setViewCount] = useState(0);
   useEffect(() => {
-    countapi.hit('vilegal.com', props.value).then((result) => setViewCount(result.value));
+    countapi.hit('vi-legal.com', props.value).then((result) => setViewCount(result.value));
   }, []);
   return <>{viewCount}</>;
 };

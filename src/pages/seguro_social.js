@@ -1,13 +1,17 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
 import { Link } from 'gatsby';
+import IncreaseCounter from '../components/IncreaseCounter'
 
 const Article = () => {
   return (
     <LayoutBlog>
       <title>CONTRIBUCIONES AL SEGURO SOCIAL OBLIGATORIO BOLIVIA</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
-        <p className="text-left mt-12 mb-12 sm: text-sm">Publicado el lunes, 21 de Abril 2014.</p>
+        <p className="text-left mt-12 mb-12 sm: text-sm">
+          Publicado el lunes, 21 de Abril 2014. Visitas:{' '}
+          <IncreaseCounter value="67e63e78-a1b0-4592-b5d9-413ceae47f4b" />
+        </p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">
           CONTRIBUCIONES AL SEGURO SOCIAL OBLIGATORIO
         </h3>

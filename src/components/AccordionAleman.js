@@ -92,7 +92,7 @@ export default function CustomizedAccordionsAleman() {
           <Typography>
             <ul>
               <li>
-                Licenciado en Ciencias Políticas y Sociales - Universidad Mayor Autónoma Tomás Frías
+                Licenciado en Derecho, Ciencias Políticas y Sociales - Universidad Mayor Autónoma Tomás Frías
               </li>
             </ul>
           </Typography>

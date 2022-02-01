@@ -100,7 +100,7 @@ const Blog = () => {
                           10 de Noviembre 2017
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter props="regimen_comunicacion_procesal" />
+                          Visitas: <ViewCounter value="b9403ed9-9332-4235-b243-884adfb1ff21" />
                         </Typography>
                       </Box>
                     </Box>
@@ -145,7 +145,7 @@ const Blog = () => {
                           17 de mayo 2017.
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter props="debilidades_codigo_civil" />
+                          Visitas: <ViewCounter value="5454ff72-a9e4-4852-8595-90670b669c82" />
                         </Typography>
                       </Box>
                     </Box>
@@ -158,7 +158,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/article20160928">
+                <Link className="px-4" href="/monitoreo_cese">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -188,7 +188,7 @@ const Blog = () => {
                           28 de Septiembre 2016
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 11709
+                          Visitas: <ViewCounter value="6025ba9a-8b61-4ac2-91d3-44f90a5627b3" />
                         </Typography>
                       </Box>
                     </Box>
@@ -201,7 +201,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/article20140529">
+                <Link className="px-4" href="/conciliacion_previa">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -230,7 +230,7 @@ const Blog = () => {
                           29 de Mayo 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 53221
+                          Visitas: <ViewCounter value="bdac3106-68ed-4128-9873-655a41bc96b0" />
                         </Typography>
                       </Box>
                     </Box>
@@ -272,7 +272,7 @@ const Blog = () => {
                           29 de Mayo 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 101314
+                          Visitas: <ViewCounter value="09dffc65-2071-48aa-af7c-d560b748a120" />
                         </Typography>
                       </Box>
                     </Box>
@@ -314,7 +314,7 @@ const Blog = () => {
                           29 de Mayo 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 60124
+                          Visitas: <ViewCounter value="c38ceb8d-27b6-4f1a-99c3-1558af9c9c6a" />
                         </Typography>
                       </Box>
                     </Box>
@@ -331,7 +331,7 @@ const Blog = () => {
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
-                      image="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                      image="https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                       title="Dr.Manuel Villarroel Vargas"
                     />
                     <CardContent>
@@ -354,7 +354,7 @@ const Blog = () => {
                           29 de Mayo 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 100097
+                          Visitas: <ViewCounter value="e6e82d3d-5456-4857-89f1-acdc9a86cfef" />
                         </Typography>
                       </Box>
                     </Box>
@@ -395,7 +395,7 @@ const Blog = () => {
                           21 de Abril 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 199864
+                          Visitas: <ViewCounter value="67e63e78-a1b0-4592-b5d9-413ceae47f4b" />
                         </Typography>
                       </Box>
                     </Box>
@@ -436,7 +436,7 @@ const Blog = () => {
                           21 de Abril 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 34135
+                          Visitas: <ViewCounter value="ae2fd099-500c-40d1-9557-1a3f94bf7755" />
                         </Typography>
                       </Box>
                     </Box>
@@ -477,7 +477,7 @@ const Blog = () => {
                           16 de Abril 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 51155
+                          Visitas: <ViewCounter value="5986bc8c-789f-4a48-8cf7-ca8e07866629" />
                         </Typography>
                       </Box>
                     </Box>
@@ -517,7 +517,7 @@ const Blog = () => {
                           24 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 23527
+                          Visitas: <ViewCounter value="5b9dd9c3-e674-41d6-b9b5-638559ce563f" />
                         </Typography>
                       </Box>
                     </Box>
@@ -558,7 +558,7 @@ const Blog = () => {
                           22 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 21880
+                          Visitas: <ViewCounter value="1975f239-6dd0-4fab-9d98-70181f1b1f8c" />
                         </Typography>
                       </Box>
                     </Box>
@@ -599,7 +599,7 @@ const Blog = () => {
                           22 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 39667
+                          Visitas: <ViewCounter value='68270073-3431-4bff-bc13-c2501ac25f1b' />
                         </Typography>
                       </Box>
                     </Box>
@@ -640,7 +640,7 @@ const Blog = () => {
                           17 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 36590
+                          Visitas: <ViewCounter value='b5e6215e-9449-473a-9166-0ee035555cc0' />
                         </Typography>
                       </Box>
                     </Box>
@@ -682,7 +682,7 @@ const Blog = () => {
                           17 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 98450
+                          Visitas: <ViewCounter value='31724d97-2349-4984-9636-57aba02c0221' />
                         </Typography>
                       </Box>
                     </Box>
@@ -723,7 +723,7 @@ const Blog = () => {
                           16 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 14885
+                          Visitas: <ViewCounter value='1e2e9e18-4d9f-4ab2-9722-dafc2f0be709' />
                         </Typography>
                       </Box>
                     </Box>
@@ -765,7 +765,7 @@ const Blog = () => {
                           16 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 8469
+                          Visitas: <ViewCounter value='413ff47f-304f-4438-8a64-51c8eccb8ae7' />
                         </Typography>
                       </Box>
                     </Box>
@@ -806,7 +806,7 @@ const Blog = () => {
                           20 de Noviembre 2013
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 8860
+                          Visitas: <ViewCounter value='8b96848e-cbbe-4530-969b-7e98c9185b1c' />
                         </Typography>
                       </Box>
                     </Box>
@@ -847,7 +847,7 @@ const Blog = () => {
                           12 de Noviembre 2013
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 10997
+                          Visitas: <ViewCounter value='b9840e11-be95-4aaa-86de-613f0b5290e1' />
                         </Typography>
                       </Box>
                     </Box>
@@ -860,7 +860,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/causales_despido">
+                <Link className="px-4" href="/aguinaldo_moneda_extranjera">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -889,7 +889,7 @@ const Blog = () => {
                           12 de Noviembre 2013
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: 6514
+                          Visitas: <ViewCounter value='59a4957a-d730-4213-bd43-3e709e3e692e' />
                         </Typography>
                       </Box>
                     </Box>

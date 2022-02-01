@@ -254,7 +254,7 @@ const Index = () => (
             placeholder="profilepic"
           />
           <LabelText className="mt-6 mb-6 text-gray-700 text-center lg:text-left">
-            Dra. Ashley Katte Zapana Alejos
+            Dra. Katte Zapana Alejos
           </LabelText>
         </div>
       }

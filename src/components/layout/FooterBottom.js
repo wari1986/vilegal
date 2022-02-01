@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div>
-        © All rights reserved | {new Date().getFullYear()} |{title}
+        © All rights reserved | {new Date().getFullYear()} | {title}
       </div>
     </footer>
   );

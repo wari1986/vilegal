@@ -5,7 +5,7 @@ import countapi from 'countapi-js';
 const ViewCounter = (props) => {
   const [viewCount, setViewCount] = useState(0);
   useEffect(() => {
-    countapi.get('vilegal.com', props.value).then((result) => setViewCount(result.value));
+    countapi.get('vi-legal.com', props.value).then((result) => setViewCount(result.value));
   }, []);
   return <>{viewCount}</>;
 };

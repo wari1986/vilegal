@@ -1,13 +1,17 @@
 import React from 'react';
 import LayoutBlog from '../components/layout/LayoutBlog';
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
+import IncreaseCounter from '../components/IncreaseCounter'
 
 const Article = () => {
   return (
     <LayoutBlog>
       <title>PROCEDIMIENTO EXTRAORDINARIO</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
-        <p className="text-left mt-12 mb-12 sm: text-sm">Publicado el jueves, 29 de mayo 2014.</p>
+        <p className="text-left mt-12 mb-12 sm: text-sm">
+          Publicado el jueves, 29 de mayo 2014. Visitas:{' '}
+          <IncreaseCounter value="c38ceb8d-27b6-4f1a-99c3-1558af9c9c6a" />
+        </p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">PROCEDIMIENTO EXTRAORDINARIO</h3>
         <p className="mt-2 text-md text-justify font-light leading-relaxed">
           El Art. 369 del Código Procesal Civil señala:
