@@ -37,8 +37,8 @@ const Article = () => {
           <br />
           <br />
           El origen de la indivisión puede ser: <b>a)</b> por contrato entre los condóminos o
-          copropietarios, <b>b)</b> por voluntad del testador, <b>c)</b> por imperio de la ley ,o{' '}
-          <b>d</b> por la naturaleza de la cosa.
+          copropietarios, <b>b)</b> por voluntad del testador, <b>c)</b> por imperio de la ley , o{' '}
+          <b>d)</b> por la naturaleza de la cosa.
           <br />
           <br />
           La frase <b>"sin indivisión forzosa"</b> se entiende a la pactada por los condóminos y no
@@ -168,7 +168,7 @@ const Article = () => {
           <br />
           Qué entendemos entonces cuando el Art.391 del Código Procesal Civil señala: <b>“Podrá
           demandarse el cese del estado de copropiedad común o <u>“sin indivisión forzosa que haya
-          tenido origen contractual”?</u></b> Que cuando no hay pacto de indivisión forzosa de origen
+          tenido origen contractual”?</u></b> Que cuando no hay pacto de indivisión forzosa de origen{' '}
           <u>contractual o testamentario</u>, es procedente tramitar el cese de copropiedad del condominio
           común por la vía monitoria cuando exista imposibilidad de cómoda división del bien.
           <br />
