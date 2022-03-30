@@ -1,20 +1,19 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
+
 import Button from '../components/Button';
 import Card from '../components/Card';
-import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-// import StatsBox from '../components/StatsBox';
-import customerData from '../data/customer-data';
-// import Hero from '../components/Hero';
-// import HeroImage from '../svg/HeroImage';
+
+// import CustomerCard from '../components/CustomerCard';
+// import customerData from '../data/customer-data';
+
 import GbiBridged from '../components/BackgroundImageHero';
 import { StaticImage } from 'gatsby-plugin-image';
 import SocialMediaIcons from '../components/SocialMedia';
-// import Footer from '../components/layout/Footer';
-// import SvgCharts from '../svg/SvgCharts';
-// import AccordionComponent from '../components/Accordion';
+
 import CustomizedAccordions from '../components/AccordionVillarroel';
 import CustomizedAccordionsAleman from '../components/AccordionAleman'
 import CustomizedAccordionsTamayo from '../components/AccordionTamayo'
@@ -23,6 +22,11 @@ import CustomizedAccordionsZapana from '../components/AccordionZapana'
 
 const Index = () => (
   <Layout>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Vi Legal Estudio de abogados Villarroel Vargas</title>
+      <link rel="canonical" href="http://www.vi-legal.com" />
+    </Helmet>
     <GbiBridged />
     <div>
       <section id="services" className="py-20 lg:pb-40 lg:pt-48">
