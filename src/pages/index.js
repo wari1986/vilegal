@@ -19,7 +19,7 @@ import CustomizedAccordionsZapana from '../components/AccordionZapana'
 
 const Index = () => (
   <Layout>
-    <Seo title='Vi-Legal Estudio de Abogados'/>
+    <Seo title='Vi-Legal Estudio de Abogados' rel='canonical'/>
     <GbiBridged />
     <div>
       <section id="services" className="py-20 lg:pb-40 lg:pt-48">

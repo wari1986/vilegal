@@ -12,23 +12,25 @@ const Footer = () => (
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Teléfonos</h2>
-        <ul className="mt-4 leading-loose">
+        <ul className="mt-4 space-y-4 leading-loose">
           <li>
-            <a href="tel:+591 76777577">+591 76777577 </a>
+            <a className="py-4" href="tel:+591 76777577">
+              +591 76777577{' '}
+            </a>
           </li>
           <li>
-            <a href="tel:+591 (2)2115970">+591 (2)2115970</a>
+            <a className="py-4" href="tel:+591 (2)2115970">
+              +591 (2)2115970
+            </a>
           </li>
         </ul>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">E-Mail</h2>
-        <ul className="mt-4 leading-loose">
-          <li>
-            <a href="mailto:info@vi-legal.com" target="_blank">
-              info@vi-legal.com
-            </a>
-          </li>
+        <ul className="mt-4 py-top leading-loose">
+          <a className="py-4" href="mailto:info@vi-legal.com" target="_blank">
+            info@vi-legal.com
+          </a>
         </ul>
       </div>
     </div>
