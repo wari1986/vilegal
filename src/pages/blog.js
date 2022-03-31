@@ -4,8 +4,7 @@ import GbiBridge from '../components/BackgroundImageHeroBlog';
 
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'gatsby';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
@@ -18,7 +17,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Avatar from '@material-ui/core/Avatar';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import ViewCounter from '../components/ViewCounter'
-import Pagination from '@material-ui/lab/Pagination';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -63,12 +61,11 @@ const Blog = () => {
       <div>
         <Container maxWidth="lg" className={classes.blogsContainer}>
           <Typography variant="h4" className={classes.blogTitle}>
-            {/* Articulos */}
           </Typography>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/regimen_comunicacion_procesal">
+                <Link className="px-4" to="blog/regimen_comunicacion_procesal">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -113,7 +110,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/debilidades_codigo_civil">
+                <Link className="px-4" to="/debilidades_codigo_civil">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -158,7 +155,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/monitoreo_cese">
+                <Link className="px-4" to="/monitorio_cese_de_copropiedad">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -167,7 +164,7 @@ const Blog = () => {
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Monitoreo de cese de copropiedad
+                        Monitorio de cese de copropiedad
                       </Typography>
                       <Typography variant="body2" color="textSecondary" component="p">
                         El Art.391 el Código Procesal Civil, señala: “Podrá demandarse el cese del
@@ -201,7 +198,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/conciliacion_previa">
+                <Link className="px-4" to="/conciliacion_previa">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -243,7 +240,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/procesos_monitorios">
+                <Link className="px-4" to="/procesos_monitorios">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -285,7 +282,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/procedimiento_extraordinario">
+                <Link className="px-4" to="/procedimiento_extraordinario">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -327,7 +324,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/proceso_ordinario">
+                <Link className="px-4" to="/proceso_ordinario">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -367,7 +364,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/seguro_social">
+                <Link className="px-4" to="/seguro_social">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -408,7 +405,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/accidente_de_trabajo">
+                <Link className="px-4" to="/accidente_de_trabajo">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -449,7 +446,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/contrato_plazo_fijo">
+                <Link className="px-4" to="/contrato_plazo_fijo">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -490,7 +487,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/improcedencia_de_pago_desahucio">
+                <Link className="px-4" to="/improcedencia_de_pago_desahucio">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -530,7 +527,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/retiro_indirecto">
+                <Link className="px-4" to="/retiro_indirecto">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -571,7 +568,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/clasificacion_procesos_civiles">
+                <Link className="px-4" to="/clasificacion_procesos_civiles">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -612,7 +609,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/lactancia_laboral">
+                <Link className="px-4" to="/lactancia_laboral">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -653,7 +650,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/causales_despido">
+                <Link className="px-4" to="/causales_despido">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -695,7 +692,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/preaviso_despido">
+                <Link className="px-4" to="/preaviso_despido">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -736,7 +733,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/inamovilidad_todos_trabajadores">
+                <Link className="px-4" to="/inamovilidad_todos_trabajadores">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -778,7 +775,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/segundo_aguinaldo">
+                <Link className="px-4" to="/segundo_aguinaldo">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -819,7 +816,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/pago_indemnizacion">
+                <Link className="px-4" to="/pago_indemnizacion">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -860,7 +857,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" href="/aguinaldo_moneda_extranjera">
+                <Link className="px-4" to="/aguinaldo_moneda_extranjera">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
