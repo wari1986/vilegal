@@ -65,7 +65,7 @@ const Blog = () => {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="blog/regimen_comunicacion_procesal">
+                <Link className="px-4" to="/regimen_comunicacion_procesal">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
