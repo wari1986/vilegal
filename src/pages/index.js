@@ -21,11 +21,6 @@ import CustomizedAccordionsZapana from '../components/AccordionZapana'
 
 const Index = () => (
   <Layout>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Vi Legal Estudio de abogados Villarroel Vargas</title>
-      <link rel="canonical" href="http://www.vi-legal.com" />
-    </Helmet>
     <GbiBridged />
     <div>
       <section id="services" className="py-20 lg:pb-40 lg:pt-48">
