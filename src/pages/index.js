@@ -1,4 +1,5 @@
 import React from 'react';
+import Seo from '../components/Seo';
 
 import Button from '../components/Button';
 import Card from '../components/Card';
@@ -18,6 +19,7 @@ import CustomizedAccordionsZapana from '../components/AccordionZapana'
 
 const Index = () => (
   <Layout>
+    <Seo title='Vi-Legal Estudio de Abogados'/>
     <GbiBridged />
     <div>
       <section id="services" className="py-20 lg:pb-40 lg:pt-48">
