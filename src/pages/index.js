@@ -265,7 +265,7 @@ const Index = () => (
       </p>
       <p className="mt-8">
         <a href="https://api.whatsapp.com/send?phone=59176777577" target="_blank">
-          <Button size="xl">Contacto</Button>
+          <Button size="xl">Contactar</Button>
         </a>
       </p>
     </section>

@@ -1,5 +1,4 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'gatsby';
 import LogoIcon from '../LogoIcon';
 // import Button from '../Button';
@@ -9,24 +8,18 @@ const Header = () => (
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-1 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-20 mx-0">
-          <Link href="/">
+          <Link to="/">
             <LogoIcon />
           </Link>
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0 ">
-        <Link className="px-4" href="/">
+        <Link className="px-4" to="/" title="landing page">
           Inicio
         </Link>
-        {/* <Link className="px-4" href="/">
-          Nosotros
-        </Link> */}
-        <Link className="px-4" href="/blog">
+        <Link className="px-4" to="/blog" title='blog'>
           Blog
         </Link>
-        {/* <Link className="px-4" href="/">
-          Contacto
-        </Link> */}
       </div>
       {/* <div className="hidden md:block">
         <Button className="text-sm">Start Free Trial</Button>
