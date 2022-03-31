@@ -269,7 +269,7 @@ const Article = () => {
         <h3 className="text-lg mb-16 font-semibold leading-tight">
           Capacitador del Código Procesal Civil
         </h3>
-        <Link href="/blog">
+        <Link to="/blog">
           <p className="mb-12 text-md text-left font-bold leading-relaxed">Retornar al Blog</p>
         </Link>
       </section>
