@@ -1,14 +1,10 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 import Button from '../components/Button';
 import Card from '../components/Card';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-
-// import CustomerCard from '../components/CustomerCard';
-// import customerData from '../data/customer-data';
 
 import GbiBridged from '../components/BackgroundImageHero';
 import { StaticImage } from 'gatsby-plugin-image';
@@ -22,11 +18,6 @@ import CustomizedAccordionsZapana from '../components/AccordionZapana'
 
 const Index = () => (
   <Layout>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Vi Legal Estudio de abogados Villarroel Vargas</title>
-      <link rel="canonical" href="http://www.vi-legal.com" />
-    </Helmet>
     <GbiBridged />
     <div>
       <section id="services" className="py-20 lg:pb-40 lg:pt-48">
