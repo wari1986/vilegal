@@ -1,7 +1,7 @@
 import React from 'react';
-import LayoutBlog from '../components/layout/LayoutBlog';
+import LayoutBlog from '../../components/layout/LayoutBlog';
 import { Link } from 'gatsby';
-import IncreaseCounter from '../components/IncreaseCounter'
+import IncreaseCounter from '../../components/IncreaseCounter';
 
 const Article = () => {
   return (

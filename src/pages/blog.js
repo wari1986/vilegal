@@ -60,12 +60,11 @@ const Blog = () => {
       </div>
       <div>
         <Container maxWidth="lg" className={classes.blogsContainer}>
-          <Typography variant="h4" className={classes.blogTitle}>
-          </Typography>
+          <Typography variant="h4" className={classes.blogTitle}></Typography>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/regimen_comunicacion_procesal">
+                <Link className="px-4" to="../articulos/regimen_comunicacion_procesal/">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -110,7 +109,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/debilidades_codigo_civil">
+                <Link className="px-4" to="../articulos/debilidades_codigo_civil">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -155,7 +154,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/monitorio_cese_de_copropiedad">
+                <Link className="px-4" to="../articulos/monitorio_cese_de_copropiedad">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -198,7 +197,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/conciliacion_previa">
+                <Link className="px-4" to="../articulos/conciliacion_previa">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -240,7 +239,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/procesos_monitorios">
+                <Link className="px-4" to="../articulos/procesos_monitorios">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -282,7 +281,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/procedimiento_extraordinario">
+                <Link className="px-4" to="../articulos/procedimiento_extraordinario">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -324,7 +323,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/proceso_ordinario">
+                <Link className="px-4" to="../articulos/proceso_ordinario">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -364,7 +363,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/seguro_social">
+                <Link className="px-4" to="../articulos/seguro_social">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -405,7 +404,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/accidente_de_trabajo">
+                <Link className="px-4" to="../articulos/accidente_de_trabajo">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -446,7 +445,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/contrato_plazo_fijo">
+                <Link className="px-4" to="../articulos/contrato_plazo_fijo">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -487,7 +486,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/improcedencia_de_pago_desahucio">
+                <Link className="px-4" to="../articulos/improcedencia_de_pago_desahucio">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -527,7 +526,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/retiro_indirecto">
+                <Link className="px-4" to="../articulos/retiro_indirecto">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -568,7 +567,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/clasificacion_procesos_civiles">
+                <Link className="px-4" to="../articulos/clasificacion_procesos_civiles">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -596,7 +595,7 @@ const Blog = () => {
                           22 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='68270073-3431-4bff-bc13-c2501ac25f1b' />
+                          Visitas: <ViewCounter value="68270073-3431-4bff-bc13-c2501ac25f1b" />
                         </Typography>
                       </Box>
                     </Box>
@@ -609,7 +608,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/lactancia_laboral">
+                <Link className="px-4" to="../articulos/lactancia_laboral">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -637,7 +636,7 @@ const Blog = () => {
                           17 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='b5e6215e-9449-473a-9166-0ee035555cc0' />
+                          Visitas: <ViewCounter value="b5e6215e-9449-473a-9166-0ee035555cc0" />
                         </Typography>
                       </Box>
                     </Box>
@@ -650,7 +649,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/causales_despido">
+                <Link className="px-4" to="../articulos/causales_despido">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -679,7 +678,7 @@ const Blog = () => {
                           17 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='31724d97-2349-4984-9636-57aba02c0221' />
+                          Visitas: <ViewCounter value="31724d97-2349-4984-9636-57aba02c0221" />
                         </Typography>
                       </Box>
                     </Box>
@@ -692,7 +691,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/preaviso_despido">
+                <Link className="px-4" to="../articulos/preaviso_despido">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -720,7 +719,7 @@ const Blog = () => {
                           16 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='1e2e9e18-4d9f-4ab2-9722-dafc2f0be709' />
+                          Visitas: <ViewCounter value="1e2e9e18-4d9f-4ab2-9722-dafc2f0be709" />
                         </Typography>
                       </Box>
                     </Box>
@@ -733,7 +732,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/inamovilidad_todos_trabajadores">
+                <Link className="px-4" to="../articulos/inamovilidad_todos_trabajadores">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -762,7 +761,7 @@ const Blog = () => {
                           16 de Enero 2014
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='413ff47f-304f-4438-8a64-51c8eccb8ae7' />
+                          Visitas: <ViewCounter value="413ff47f-304f-4438-8a64-51c8eccb8ae7" />
                         </Typography>
                       </Box>
                     </Box>
@@ -775,7 +774,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/segundo_aguinaldo">
+                <Link className="px-4" to="../articulos/segundo_aguinaldo">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -803,7 +802,7 @@ const Blog = () => {
                           20 de Noviembre 2013
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='8b96848e-cbbe-4530-969b-7e98c9185b1c' />
+                          Visitas: <ViewCounter value="8b96848e-cbbe-4530-969b-7e98c9185b1c" />
                         </Typography>
                       </Box>
                     </Box>
@@ -816,7 +815,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/pago_indemnizacion">
+                <Link className="px-4" to="../articulos/pago_indemnizacion">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -844,7 +843,7 @@ const Blog = () => {
                           12 de Noviembre 2013
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='b9840e11-be95-4aaa-86de-613f0b5290e1' />
+                          Visitas: <ViewCounter value="b9840e11-be95-4aaa-86de-613f0b5290e1" />
                         </Typography>
                       </Box>
                     </Box>
@@ -857,7 +856,7 @@ const Blog = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
-                <Link className="px-4" to="/aguinaldo_moneda_extranjera">
+                <Link className="px-4" to="../articulos/aguinaldo_moneda_extranjera">
                   <CardActionArea>
                     <CardMedia
                       className={classes.media}
@@ -886,7 +885,7 @@ const Blog = () => {
                           12 de Noviembre 2013
                         </Typography>
                         <Typography variant="subtitle2" color="textSecondary" component="p">
-                          Visitas: <ViewCounter value='59a4957a-d730-4213-bd43-3e709e3e692e' />
+                          Visitas: <ViewCounter value="59a4957a-d730-4213-bd43-3e709e3e692e" />
                         </Typography>
                       </Box>
                     </Box>

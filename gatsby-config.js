@@ -6,6 +6,7 @@ module.exports = {
       'Vi-Legal es un estudio de abogados ubicado en La Paz Bolivia. Los juristas principales son el Dr. Victor Manuel Villarroel Vargas y el Dr. Ricardo Ivan Aleman Menduiña. Expertos en Derecho Civil, Derecho Comercial, Derecho Laboral, Derecho Tributario y Derecho Penal. Vi-Legal ofrece un blog con articulos de derecho y ciencias jurídicas',
     icon: `src/images/logovilegal.webp`,
     url: `http://www.vi-legal.com/`,
+    language:`es`
   },
   plugins: [
     `gatsby-plugin-anchor-links`,
