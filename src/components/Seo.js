@@ -65,6 +65,10 @@ const Seo = ({ description, keywords, title, image, url, author, language }) => 
                 property: `og:url`,
                 content: metaUrl,
               },
+              {
+                name: `robots`,
+                content: `index`,
+              },
             ].concat(
               metaKeywords && metaKeywords.length > 0
                 ? {
