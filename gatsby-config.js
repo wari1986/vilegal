@@ -9,7 +9,6 @@ module.exports = {
     language: `es`,
   },
   plugins: [
-    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
