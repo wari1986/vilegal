@@ -1,11 +1,16 @@
 import React from 'react';
-import LayoutBlog from '../components/layout/LayoutBlog';
+import LayoutBlog from '../../components/layout/LayoutBlog';
 import { Link } from 'gatsby'
-import IncreaseCounter from '../components/IncreaseCounter';
+import IncreaseCounter from '../../components/IncreaseCounter';
+import Seo from '../../components/Seo';
 
 const Article = () => {
   return (
     <LayoutBlog>
+      <Seo
+        title="Régimen de comunicación procesal en el proceso civil en Bolivia, derecho Bolivia"
+        description="Artículo sobre régimen de comunicación procesal en el proceso civil en Bolivia, estudio de derecho y ciencias jurídicas en Bolivia."
+      />
       <title>RÉGIMEN DE COMUNICACIÓN PROCESAL EN EL PROCESO CIVIL BOLIVIA</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 flex-auto ">
         <p className="text-left mt-12 mb-12 sm: text-sm">

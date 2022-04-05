@@ -1,15 +1,21 @@
 import React from 'react';
-import LayoutBlog from '../components/layout/LayoutBlog';
+import LayoutBlog from '../../components/layout/LayoutBlog';
 import { Link } from 'gatsby'
-import IncreaseCounter from '../components/IncreaseCounter'
+import IncreaseCounter from '../../components/IncreaseCounter';
+import Seo from '../../components/Seo';
 
 const Article = () => {
   return (
     <LayoutBlog>
+      <Seo
+        title="Monitorio de cese de copropiedad derecho bolivia"
+        description="articulo sobre monitorio de cese de copropiedad, estudio de derecho y ciencias juridicas en Bolivia. Según la doctrina el condominio o copropiedad puede ser de origen ganancial, sucesorio, o contractual, por lo que nos preguntamos"
+      />
       <title>MONITORIO DE CESE DE COPROPIEDAD</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
         <p className="text-left mt-12 mb-12 sm: text-sm">
-          Publicado el miercoles, 28 de Septiembre 2016. Visitas: <IncreaseCounter value="6025ba9a-8b61-4ac2-91d3-44f90a5627b3" />
+          Publicado el miercoles, 28 de Septiembre 2016. Visitas:{' '}
+          <IncreaseCounter value="6025ba9a-8b61-4ac2-91d3-44f90a5627b3" />
         </p>
         <h3 className="text-2xl mb-8 font-semibold leading-tight">
           MONITORIO DE CESE DE COPROPIEDAD
@@ -99,14 +105,14 @@ const Article = () => {
           Esto siempre recordando que el espíritu de los Códigos Procesales Civiles modernos
           alientan a que la autoridad judicial dé solución efectiva y rápida a las controversias
           privilegiando la sustancia sobre las formalidades dilatorias e inútiles.
-          <br/>
-          <br/>
-          Los operadores de justicia tienen que prescindir de las formalidades irrelevantes y dar a los trámites la
-          vía más efectiva, justa y rápida. Esto refleja todo el sistema procesal y hay que
-          entenderlo imprescindiblemente de esa forma. El Código Procesal Civil le otorga al juez
-          todos los instrumentos para que éste sea eficiente y efectivo para la solución de toda
-          controversia, debiendo aplicar el principio de no formalismo que está implícito en los
-          códigos procesales modernos de Iberoamérica.
+          <br />
+          <br />
+          Los operadores de justicia tienen que prescindir de las formalidades irrelevantes y dar a
+          los trámites la vía más efectiva, justa y rápida. Esto refleja todo el sistema procesal y
+          hay que entenderlo imprescindiblemente de esa forma. El Código Procesal Civil le otorga al
+          juez todos los instrumentos para que éste sea eficiente y efectivo para la solución de
+          toda controversia, debiendo aplicar el principio de no formalismo que está implícito en
+          los códigos procesales modernos de Iberoamérica.
           <br />
           <br />
           El Art. 391 del C.C. busca reglamentar el procedimiento para dividir la cosa común
@@ -119,69 +125,84 @@ const Article = () => {
           </b>
           <br />
           <br />
-          <b>II. No obstante es válido el pacto para permanecer en comunidad por un tiempo no mayor de
-          cinco años; pero si median circunstancias graves la autoridad judicial puede ordenar la
-          división antes del tiempo convenido.</b>
+          <b>
+            II. No obstante es válido el pacto para permanecer en comunidad por un tiempo no mayor
+            de cinco años; pero si median circunstancias graves la autoridad judicial puede ordenar
+            la división antes del tiempo convenido.
+          </b>
           <br />
           <br />
           Se entiende por NADIE, a los cónyuges, herederos, y legatarios. Así también esta norma nos
           da la pauta de que el pacto contractual de indivisión forzosa tiene límite hasta 5 años.
           <br />
           <br />
-          El primer párrafo del artículo transcrito es sobre la <b>“propiedad común en general”</b> El
-          segundo párrafo alude a la copropiedad <b>“sin indivisión forzosa contractual”</b> buscando poner
-          un límite a las causales de la indivisión. Se define como <b>“sin indivisibilidad forzosa”</b>
+          El primer párrafo del artículo transcrito es sobre la <b>
+            “propiedad común en general”
+          </b>{' '}
+          El segundo párrafo alude a la copropiedad <b>“sin indivisión forzosa contractual”</b>{' '}
+          buscando poner un límite a las causales de la indivisión. Se define como{' '}
+          <b>“sin indivisibilidad forzosa”</b>
           donde cualquiera de los condóminos, en cualquier tiempo y sin depender de la conformidad
           de los demás condóminos, puede poner fin a la copropiedad solicitando la partición de la
           cosa común.
           <br />
           <br />
-          El Art.170 del Código Civil señala: <b>“(COSAS INDIVISIBLES) I. Si la cosa común no es
-          cómodamente divisible o si cuando su fraccionamiento se encuentra prohibido por la ley o
-          disposiciones administrativas, se la vende y reparte su precio. (…)”</b>
+          El Art.170 del Código Civil señala:{' '}
+          <b>
+            “(COSAS INDIVISIBLES) I. Si la cosa común no es cómodamente divisible o si cuando su
+            fraccionamiento se encuentra prohibido por la ley o disposiciones administrativas, se la
+            vende y reparte su precio. (…)”
+          </b>
           <br />
           <br />
-          Esta norma nos da la pauta de que un bien puede ser <b>invisible</b> por su naturaleza, o por
-          mandato de la ley.
+          Esta norma nos da la pauta de que un bien puede ser <b>invisible</b> por su naturaleza, o
+          por mandato de la ley.
           <br />
           <br />
           El Art.1233 CC nos da la pauta de que el testador también puede prohibir la división del
           bien hasta cinco años desde su muerte, pero siempre que aduzca un <u>interés serio.</u>
           <br />
           <br />
-          Resumiendo, la indivisión forzosa, puede tener <u>origen contractual, por voluntad del
-          testador, por mandato de la ley, y por la naturaleza de la cosa</u>; los dos primeros, hasta
-          un límite de cinco años.
+          Resumiendo, la indivisión forzosa, puede tener{' '}
+          <u>
+            origen contractual, por voluntad del testador, por mandato de la ley, y por la
+            naturaleza de la cosa
+          </u>
+          ; los dos primeros, hasta un límite de cinco años.
           <br />
           <br />
-          Qué entendemos <b>“con indivisibilidad forzosa”?</b> Que se encuentra coartada la facultad de
-          pedir la división en cualquier tiempo ya sea por: <b>1)</b> causa derivada de la ley, ejemplo los
-          señalados en los Arts.183 y 190 del CC, <b>2)</b> convención (contrato), ejemplo el Art.167-II
-          CC, <b>3)</b> naturaleza de la cosa, ejemplo el Art.168 CC, o <b>4)</b> una disposición de última
-          voluntad, ejemplo Art.1233-II CC (por testamento).
+          Qué entendemos <b>“con indivisibilidad forzosa”?</b> Que se encuentra coartada la facultad
+          de pedir la división en cualquier tiempo ya sea por: <b>1)</b> causa derivada de la ley,
+          ejemplo los señalados en los Arts.183 y 190 del CC, <b>2)</b> convención (contrato),
+          ejemplo el Art.167-II CC, <b>3)</b> naturaleza de la cosa, ejemplo el Art.168 CC, o{' '}
+          <b>4)</b> una disposición de última voluntad, ejemplo Art.1233-II CC (por testamento).
           <br />
           <br />
-          De estos cuatro casos, solo el <b>2)</b> y el <b>4)</b> tienen origen contractual y su indivisión está
-          limitada a máximo cinco años. Los casos <b>1)</b> y <b>3)</b> directamente no permiten división,
-          pudiendo decirse que es una indivisión absoluta.
+          De estos cuatro casos, solo el <b>2)</b> y el <b>4)</b> tienen origen contractual y su
+          indivisión está limitada a máximo cinco años. Los casos <b>1)</b> y <b>3)</b> directamente
+          no permiten división, pudiendo decirse que es una indivisión absoluta.
           <br />
           <br />
-          Qué entendemos entonces cuando el Art.391 del Código Procesal Civil señala: <b>“Podrá
-          demandarse el cese del estado de copropiedad común o <u>“sin indivisión forzosa que haya
-          tenido origen contractual”?</u></b> Que cuando no hay pacto de indivisión forzosa de origen{' '}
-          <u>contractual o testamentario</u>, es procedente tramitar el cese de copropiedad del condominio
-          común por la vía monitoria cuando exista imposibilidad de cómoda división del bien.
+          Qué entendemos entonces cuando el Art.391 del Código Procesal Civil señala:{' '}
+          <b>
+            “Podrá demandarse el cese del estado de copropiedad común o{' '}
+            <u>“sin indivisión forzosa que haya tenido origen contractual”?</u>
+          </b>{' '}
+          Que cuando no hay pacto de indivisión forzosa de origen <u>contractual o testamentario</u>
+          , es procedente tramitar el cese de copropiedad del condominio común por la vía monitoria
+          cuando exista imposibilidad de cómoda división del bien.
           <br />
           <br />
-          <b>Conclusión:</b> De todo lo expuesto se infiere que se puede tramitar en la vía monitoria:
+          <b>Conclusión:</b> De todo lo expuesto se infiere que se puede tramitar en la vía
+          monitoria:
           <br />
           <br />
           <b>1.-</b> El cese de copropiedad cualquiera sea el origen (copropiedad común en general)
           <br />
           <br />
-          <b>2.-</b>También el cese del condominio cuando los copropietarios no han pactado su indivisión
-          por un tiempo determinado, o el testador no lo hubiera prohibido aduciendo interés serio.
-          (sin indivisión forzosa que haya tenido origen contractual)
+          <b>2.-</b>También el cese del condominio cuando los copropietarios no han pactado su
+          indivisión por un tiempo determinado, o el testador no lo hubiera prohibido aduciendo
+          interés serio. (sin indivisión forzosa que haya tenido origen contractual)
           <br />
           <br />
           <b>3.-</b> Cuando por imposición de la ley el bien es considerado indivisible o cuando la

@@ -1,5 +1,5 @@
 import React from 'react';
-import LayoutBlog from '../components/layout/LayoutBlog';
+import LayoutBlog from '../../components/layout/LayoutBlog';
 import { Link } from 'gatsby'
 
 const Article = () => {

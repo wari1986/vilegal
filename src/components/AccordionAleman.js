@@ -50,7 +50,7 @@ export default function CustomizedAccordionsAleman() {
   return (
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+        <AccordionSummary aria-controls="panel1d-content" id="aleman">
           <Typography>Experiencia</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -71,7 +71,7 @@ export default function CustomizedAccordionsAleman() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
+        <AccordionSummary aria-controls="panel2d-content" id="practica-aleman">
           <Typography>Áreas de Práctica</Typography>
         </AccordionSummary>
         <AccordionDetails>

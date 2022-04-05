@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import Header from './HeaderBlog';
-import FooterBottom from './FooterBottom'
+import FooterBottom from './FooterBottom';
 
 const LayoutBlog = ({ children }) => {
   return (
