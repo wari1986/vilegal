@@ -39,15 +39,7 @@ module.exports = {
       options: {
         host: 'https://www.vi-legal.com',
         sitemap: 'https://www.vi-legal.com/sitemap/sitemap-index.xml',
-        resolveEnv: () => process.env.GATSBY_ENV,
-        env: {
-          development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
-          },
-          production: {
-            policy: [{ userAgent: '*', allow: '/' }],
-          },
-        },
+        policy: [{userAgent: '*', allow: '/'}]
       },
     },
   ],

@@ -50,7 +50,7 @@ export default function CustomizedAccordionsTamayo() {
   return (
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="panel1d-content" id="tamayo">
+        <AccordionSummary aria-controls="tamayo" id="tamayo">
           <Typography>Experiencia</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -75,7 +75,7 @@ export default function CustomizedAccordionsTamayo() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary aria-controls="panel2d-content" id="practica-aleman">
+        <AccordionSummary aria-controls="practica-tamayo" id="practica-tamayo">
           <Typography>Áreas de Práctica</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -86,7 +86,7 @@ export default function CustomizedAccordionsTamayo() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+        <AccordionSummary aria-controls="educacion-tamayo" id="educacion-tamayo">
           <Typography>Educación</Typography>
         </AccordionSummary>
         <AccordionDetails>
