@@ -50,7 +50,7 @@ export default function CustomizedAccordionsZapana() {
   return (
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="panel1d-content" id="zapana">
+        <AccordionSummary aria-controls="experiencia-zapana" id="zapana">
           <Typography>Experiencia</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -67,7 +67,7 @@ export default function CustomizedAccordionsZapana() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary aria-controls="panel2d-content" id="practica zapana">
+        <AccordionSummary aria-controls="practicazapana" id="practica-zapana">
           <Typography>Áreas de Práctica</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -80,17 +80,17 @@ export default function CustomizedAccordionsZapana() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+        <AccordionSummary aria-controls="educacionzapana" id="educacion-zapana">
           <Typography>Educación</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-              <li>Licenciada en Derecho – Universidad Católica Boliviana "San Pablo” </li>
-              <li>Diplomado en Derecho Corporativo - Universidad del Valle.</li>
-              <li>
-                Curso de Especialización en Negociación - Universidad Nacional Autónoma de México.
-              </li>
-              <li>Curso en Finanzas por la Universidad de California.</li>
+            <li>Licenciada en Derecho – Universidad Católica Boliviana "San Pablo” </li>
+            <li>Diplomado en Derecho Corporativo - Universidad del Valle.</li>
+            <li>
+              Curso de Especialización en Negociación - Universidad Nacional Autónoma de México.
+            </li>
+            <li>Curso en Finanzas por la Universidad de California.</li>
           </Typography>
         </AccordionDetails>
       </Accordion>
