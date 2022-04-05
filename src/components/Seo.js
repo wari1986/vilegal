@@ -28,6 +28,9 @@ const Seo = ({ description, keywords, title, image, url, author, language }) => 
         return (
           <Helmet
             title={title}
+            htmlAttributes={{
+              lang: 'es',
+            }}
             meta={[
               {
                 name: `description`,
@@ -64,14 +67,6 @@ const Seo = ({ description, keywords, title, image, url, author, language }) => 
               {
                 property: `og:url`,
                 content: metaUrl,
-              },
-              {
-                name: `robots`,
-                content: `index`,
-              },
-              {
-                name: `googlebot`,
-                content: `index`,
               },
               {
                 name: `robots`,

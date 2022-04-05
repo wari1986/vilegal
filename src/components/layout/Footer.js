@@ -28,9 +28,17 @@ const Footer = () => (
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">E-Mail</h2>
         <ul className="mt-6 py-top leading-loose">
+<<<<<<< HEAD
           <a className="py-6" href="mailto:info@vi-legal.com" target="_blank">
             info@vi-legal.com
           </a>
+=======
+          <li>
+            <a className="py-6" href="mailto:info@vi-legal.com" target="_blank">
+              info@vi-legal.com
+            </a>
+          </li>
+>>>>>>> main
         </ul>
       </div>
     </div>
