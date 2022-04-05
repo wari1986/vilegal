@@ -1,11 +1,13 @@
 import React from 'react';
 import LayoutBlog from '../../components/layout/LayoutBlog';
 import { Link } from 'gatsby'
-import IncreaseCounter from '../../components/IncreaseCounter'
+import IncreaseCounter from '../../components/IncreaseCounter';
+import Seo from '../../components/Seo';
 
 const Article = () => {
   return (
     <LayoutBlog>
+      <Seo title="Muerte del trabajador por accidente de trabajo derecho bolivia" description="Artículo sobre muerte del trabajador por accidente de trabajo, estudio de derecho y ciencias jurídicas en Bolivia." />
       <title>MUERTE DEL TRABAJADOR POR ACCIDENTE DE TRABAJO</title>
       <section className="container mx-auto text-center mx-4 lg:px-48 md: px-12 ">
         <p className="text-left mt-12 mb-12 sm: text-sm">

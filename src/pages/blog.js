@@ -17,6 +17,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Avatar from '@material-ui/core/Avatar';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import ViewCounter from '../components/ViewCounter'
+import Seo from '../components/Seo';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -55,6 +56,7 @@ const Blog = () => {
   const classes = useStyles();
   return (
     <LayoutBlog>
+      <Seo title="Vi-Legal Blog de estudios juridicos y derecho. Vi-Legal estudio de abogados" />
       <div className="h-2/6">
         <GbiBridge />
       </div>

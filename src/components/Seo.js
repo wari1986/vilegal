@@ -11,7 +11,7 @@ const Seo = ({ description, keywords, title, image, url, author, language }) => 
           description || data.site.siteMetadata.description
         const metaTitle = title || data.site.siteMetadata.title
         const metaAuthor = author || data.site.siteMetadata.author
-        const metaUrl = url || data.site.siteMetadata.url
+        const metaUrl = url || data.site.siteMetadata.siteUrl
         const metaImage = image || data.site.siteMetadata.icon
         const metaLanguage = language || data.site.siteMetadata.language
         const metaKeywords = keywords || [
@@ -97,7 +97,7 @@ const detailsQuery = graphql`
         author
         description
         icon
-        url
+        siteUrl
         language
       }
     }
