@@ -50,7 +50,7 @@ export default function CustomizedAccordions() {
   return (
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="villarroel" id="villarroel">
+        <AccordionSummary aria-controls="experiencia-villarroel" id="villarroel">
           <Typography>Experiencia</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -71,7 +71,7 @@ export default function CustomizedAccordions() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary aria-controls="practica-villarroel" id="practica-villarroel">
+        <AccordionSummary aria-controls="practicavillarroel" id="practica-villarroel">
           <Typography>Áreas de Práctica</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -84,7 +84,7 @@ export default function CustomizedAccordions() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary aria-controls="educacion-villarroel" id="educacion-villarroel">
+        <AccordionSummary aria-controls="educacionvillarroel" id="educacion-villarroel">
           <Typography>Educación</Typography>
         </AccordionSummary>
         <AccordionDetails>

@@ -70,14 +70,6 @@ const Seo = ({ description, keywords, title, image, url, author, language }) => 
               },
               {
                 name: `robots`,
-                content: `all`,
-              },
-              {
-                name: `googlebot`,
-                content: `all`,
-              },
-              {
-                name: `robots`,
                 content: `index`,
               },
               {

@@ -50,7 +50,7 @@ export default function CustomizedAccordionsZapana() {
   return (
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="zapana" id="zapana">
+        <AccordionSummary aria-controls="experiencia-zapana" id="zapana">
           <Typography>Experiencia</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -67,7 +67,7 @@ export default function CustomizedAccordionsZapana() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary aria-controls="practica-zapana" id="practica-zapana">
+        <AccordionSummary aria-controls="practicazapana" id="practica-zapana">
           <Typography>Áreas de Práctica</Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -80,7 +80,7 @@ export default function CustomizedAccordionsZapana() {
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary aria-controls="educacion-zapana" id="educacion-zapana">
+        <AccordionSummary aria-controls="educacionzapana" id="educacion-zapana">
           <Typography>Educación</Typography>
         </AccordionSummary>
         <AccordionDetails>
