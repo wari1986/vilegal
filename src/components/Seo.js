@@ -76,6 +76,14 @@ const Seo = ({ description, keywords, title, image, url, author, language }) => 
                 name: `googlebot`,
                 content: `all`,
               },
+              {
+                name: `robots`,
+                content: `index`,
+              },
+              {
+                name: `googlebot`,
+                content: `index`,
+              },
             ].concat(
               metaKeywords && metaKeywords.length > 0
                 ? {
