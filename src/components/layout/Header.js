@@ -14,24 +14,16 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0 ">
-        <AnchorLink
-          className="px-4 text-lg font-semi-bold"
-          to="/#services"
-          title="servicios asesoria legal"
-        >
+        <AnchorLink className="px-4" to="/#services" title="servicios asesoria legal">
           Servicios
         </AnchorLink>
-        <AnchorLink className="px-4 text-lg font-semi-bold" to="/#about" title="sobre vi-legal">
+        <AnchorLink className="px-4" to="/#about" title='sobre vi-legal'>
           Nosotros
         </AnchorLink>
-        <Link
-          className="px-4 text-lg font-semi-bold"
-          to="/blog"
-          title="blog de articulos de derecho y ciencias jurídicas"
-        >
+        <Link className="px-4" to="/blog" title="blog de articulos de derecho y ciencias jurídicas">
           Blog
         </Link>
-        <AnchorLink className="px-4 text-lg font-semi-bold" to="/#contact" title="contacto y redes sociales">
+        <AnchorLink className="px-4" to="/#contact" title='contacto y redes sociales'>
           Contacto
         </AnchorLink>
       </div>
