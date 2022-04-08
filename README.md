@@ -4,6 +4,6 @@ This is the Vi-Legal law firm website. This site was develop using GatsbyJS, inc
 
 ## Vi-Legal URL
 
-https://www.vi-legal.com/
+http://www.vi-legal.com/
 
 
